@@ -1,0 +1,151 @@
+@media (max-width: 768px) {
+  /* -----------HOMEPAGE------------*/
+  .titre {
+    font-size: 1em;
+  }
+  .text {
+    font-size: 0.8em;
+  }
+  .cartes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .carte{
+    width: 50%;
+  }
+  .titre_carte {
+    font-size: 0.8em;
+}
+
+/*--------------------Menu Hamburger--------------------*/
+nav {
+  overflow: hidden;
+    display:flex;
+    flex-direction:row-reverse;
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+}
+
+/* La barre de navigation Desktop est cachée dans la version mobile. */
+.listNav {
+    display: none;
+  }
+
+nav a, .listNavBurger{
+color: black;
+padding: 10px 10px;
+text-decoration: none;
+list-style: none;
+}
+
+nav a {
+  display: block;
+}
+
+/* Par défaut, la navigation mobile est cachée. C'est le javascript qui se charge de l'afficher grâce à l'event "onclick". */
+.listNavBurger {
+  display: none;
+  background: #4ed85c;
+    margin: 0;
+}
+
+/*Style et positionnement de l'icone Hamburger */
+
+nav a.iconBurger {
+background: #4ed85c;
+display: block;
+}
+
+.linkTitle {
+font-size: 25px;
+}
+
+/*--------------------Footer--------------------*/
+
+.linkNavContact {
+display:none;
+}
+.mentions {
+  padding-right: 1em;
+}
+
+.socialMedia {
+  display: block;
+}
+.mentions {
+  justify-content: center;
+  padding:0;
+}
+
+/* -----------------page pays-------------------------- */
+
+.présentation {
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;  
+}
+
+.imageprésentation {
+  width: 100%;
+  align-items: center;  
+}
+
+.plat {
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;  
+}
+
+.imageplat {
+  width: 100%;
+  align-items: center;  
+}
+
+.activité {
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;  
+}
+
+.imageactivité {
+  width: 100%;
+  align-items: center;
+}
+
+.ingrédient {
+  justify-content: space-between;
+  margin-right: 10%;
+}
+.recette {
+  border-top: 2px solid #4ed85c;
+  border-left: 2px solid #4ed85c;
+  border-right: 2px solid #4ed85c;
+  border-radius: 20px;
+  margin-top: 5%;
+}  
+/*formulaire*/
+#name,
+#firstname,
+#email,
+#message {
+  width: 80%;
+}
+#formulaire {
+  flex-direction: column;
+  align-items: center;
+}
+/*css meteo*/
+.container {
+  font-size: 0.5em;
+  color :#494949;
+}
+.container h1,
+.container h2 {
+  color:#4ed85c;
+}
+}
+
